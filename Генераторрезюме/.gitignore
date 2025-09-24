@@ -1,8 +1,26 @@
-node_modules/
-.env
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Файлы операционной системы
 .DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
 *.log
-```# Task001
 Инструкция по настройке командной работы в GitHub
 
 # Отчет по командной работе в GitHub
