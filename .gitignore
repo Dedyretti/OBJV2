@@ -1,0 +1,43 @@
+node_modules/
+.env
+.DS_Store
+*.log
+```# Task001
+Инструкция по настройке командной работы в GitHub
+
+# Отчет по командной работе в GitHub
+
+## Основная информация
+- **Название проекта:** `OBJV2`
+- **Дата выполнения:** `24/09/2025`
+- **Состав команды:** 
+  - Тимлид: `Dedyretti - Данила`
+  - Падаван: `mayis25 - Маис`
+  - Преподаватель: `Teacher001-top - Михаил Николаевич`
+
+## Ссылки на репозитории
+- **Основной репозиторий:** `https://github.com/Dedyretti/OBJV2.git`
+- **Форк падавана:** `https://github.com/mayis25/OBJV2.git`
+- **Pull Request:** `https://github.com/Dedyretti/OBJV2/pull/1`
+
+---
+
+## Раздел Тимлида
+
+### 1. Создание и настройка основного репозитория
+
+**Выполненные действия:**
+- [+] Создан репозиторий на GitHub.com
+- [+] Добавлен README.md файл
+- [+] Настроена видимость (Public/Private)
+- [+] Проверена доступность репозитория
+
+**Команды выполнения:**
+```bash
+# Локальная настройка
+git config --global user.name "Dedyretti"
+git config --global user.email "Shelkov-d@list.ru"
+
+# Клонирование основного репозитория
+git clone https://github.com/Dedyretti/OBJV2.git
+cd C:\Users\Student\Desktop\OBJV2
