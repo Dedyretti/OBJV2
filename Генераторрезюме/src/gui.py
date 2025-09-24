@@ -104,43 +104,44 @@ def create_gui():
     button_frame.pack(pady=15)
     
     def save_resume():
-        username = username_entry.get().strip()
-        if not username:
-            messagebox.showerror("Ошибка", "❌ Введите имя пользователя GitHub!")
-            return
-        
-        # Генерируем Анкету
-        resume_content = generate_resume(
-            username,
-            skills_entry.get(),
-            experience_entry.get(),
-            education_entry.get()
-        )
-        
-        # Сохраняем файл на компьютер
-        filename = f"RESUME_{username}.md"
-        
-        file_path = filedialog.asksaveasfilename(
-            defaultextension=".md",
-            filetypes=[("Markdown files", "*.md"), ("All files", "*.*")],
-            initialfile=filename,
-            title="Сохранить резюме как..."
-        )
-        
-        if file_path:
-            try:
-                with open(file_path, 'w', encoding='utf-8') as file:
-                    file.write(resume_content)
-                
-                # Показываем успех в отдельном окне с подробной инструкцией
-                show_success_instruction(username, file_path)
-                
-                # Открываем папку с файлом
-                os.startfile(os.path.dirname(file_path))
-                
-            except Exception as e:
-                messagebox.showerror("Ошибка", f"❌ Не удалось сохранить файл: {e}")
-    
+     username = username_entry.get().strip()
+     if not username:
+         messagebox.showerror("Ошибка", "❌ Введите имя пользователя GitHub!")
+         return
+     
+     # Генерируем резюме
+     resume_content = generate_resume(
+         username,
+         skills_entry.get(),
+         experience_entry.get(),
+         education_entry.get()
+     )
+     
+     # УНИКАЛЬНОЕ ИМЯ С ДАТОЙ И ВРЕМЕНЕМ
+     current_time = datetime.now().strftime("%Y%m%d_%H%M%S")  # ГодМесяцДень_ЧасМинутаСекунда
+     filename = f"RESUME_{username}_{current_time}.md"
+     
+     file_path = filedialog.asksaveasfilename(
+         defaultextension=".md",
+         filetypes=[("Markdown files", "*.md"), ("All files", "*.*")],
+         initialfile=filename,  # Автоматически подставит уникальное имя
+         title="Сохранить резюме как..."
+     )
+     
+     if file_path:
+         try:
+             with open(file_path, 'w', encoding='utf-8') as file:
+                 file.write(resume_content)
+             
+             # Обновим сообщение об успехе
+             show_success_instruction(username, file_path)
+             
+             # Открываем папку с файлом
+             os.startfile(os.path.dirname(file_path))
+             
+         except Exception as e:
+             messagebox.showerror("Ошибка", f"❌ Не удалось сохранить файл: {e}")
+            
     def open_github():
         webbrowser.open("https://github.com")
         messagebox.showinfo(
