@@ -590,12 +590,12 @@ t push origin test.txt
 После работы:
 - Файлов: 11
 - Веток: 1
-- Коммитов: 23
+- Коммитов: 30
 ### 3. Вклад участников
 
 | Участник | Количество коммитов | Созданные файлы | Внесенные изменения |
 |----------|---------------------|-----------------|---------------------|
-| Тимлид | 29 | 11 | 29 |
+| Тимлид | 30 | 11 | 30 |
 | Падаван | 1 | 1 | 0 |
 
 ---
@@ -653,17 +653,17 @@ t push origin test.txt
 ## Подписи участников
 
 Тимлид:
-- GITHUBID: Dedyretti(https://github.com/Dedyretti)
+- GITHUBID: [Dedyretti](https://github.com/Dedyretti)
 - Подпись: ShelkD
 - Дата: 25/09/2025
 
 Падаван:
-- GITHUBID: mayis25(https://github.com/mayis25)
+- GITHUBID: [mayis25](https://github.com/mayis25)
 - Подпись: MikaM 
 - Дата: 25/09/2025
 
 Преподаватель:
-- GITHUBID: Teacher001-top(https://github.com/Teacher001-top)
+- GITHUBID: [Teacher001-top](https://github.com/Teacher001-top)
 - Подпись: ________________
 GitHub
 GitHub - Dedyretti/OBJV2
@@ -676,3 +676,6 @@ Contribute to Dedyretti/OBJV2 development by creating an account on GitHub.
 
 
 
+
+
+[def]: https://github.com/Teacher001-top
