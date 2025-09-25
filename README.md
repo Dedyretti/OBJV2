@@ -312,7 +312,8 @@ node_modules/
 .env
 .DS_Store
 *.log
-```# Task001
+
+
 Инструкция по настройке командной работы в GitHub
 
 # Отчет по командной работе в GitHub
@@ -395,69 +396,11 @@ git log --oneline --graph
 !Скрин2
 ---
 
-## Раздел Падавана
-
-### 1. Начальная настройка
-
-Выполненные действия:
-- ✅ Создан форк основного репозитория
-- ✅ Локально клонирован форк
-- ✅ Настроена связь upstream
-
-Команды выполнения:
-```bash
-# Клонирование форка
-git clone
-https://github.com/mayis25/
-GitHub
-mayis25 - Overview
-
-mayis25 has 2 repositories available. Follow their code on GitHub.
-
-OBJV2.git
-cd C:\Users\Student\Desktop\OBJV2
-
-# Настройка upstream
-git remote add upstream https://github.com/Dedyretti/OBJV2.git
-git remote -v
-
-**Результаты проверки:**
-origin    https://github.com/mayis25/OBJV2.git (fetch)
-origin    https://github.com/mayis25/OBJV2.git (push)
-upstream  https://github.com/Dedyretti/OBJV2.git (fetch)
-upstream  https://github.com/Dedyretti/OBJV2.git (push)
-
-### 2. Рабочий процесс
-
-**Создание feature-ветки:**
-- Имя ветки: `main`
-- Цель изменений: `Тест`
-
-**Команды работы:**
-```bash
-# Создание и переход на новую ветку
-git checkout main
-git fetch upstream
-git merge upstream/main
-git checkout -b тест
-
-# Внесение изменений
-# ... работа в VS Code ...
-
-# Коммит изменений
-git add .
-git status
-git commit -m "тест"
-Внесенные изменения:
-- Созданные файлы: test.txt
-- Измененные файлы: нет
-- Удаленные файлы: нет
 
 ### 3. Отправка изменений и создание PR
 
 Команды отправки:
-gi
-Bash
+git push origin report-mayis25
 
 t push origin test.txt
 
