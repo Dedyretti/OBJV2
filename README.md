@@ -563,8 +563,8 @@ t push origin test.txt
 * c8d9204 Delete podovan.md
 *   c2d8741 Merge pull request #2 from mayis25/feature/add-new-fil
 |\  
-| * 554c6c1 Добавлен новый функционал
-| * 7f145cf подован
+| |* 554c6c1 Добавлен новый функционал
+| |* 7f145cf подован
 * | 2f21375 FF
 * | 763247d VVV
 * | 2822d15 совместная работа
@@ -590,12 +590,12 @@ t push origin test.txt
 После работы:
 - Файлов: 11
 - Веток: 1
-- Коммитов: 30
+- Коммитов: 31
 ### 3. Вклад участников
 
 | Участник | Количество коммитов | Созданные файлы | Внесенные изменения |
 |----------|---------------------|-----------------|---------------------|
-| Тимлид | 30 | 11 | 30 |
+| Тимлид | 31 | 11 | 31 |
 | Падаван | 1 | 1 | 0 |
 
 ---
@@ -665,11 +665,6 @@ t push origin test.txt
 Преподаватель:
 - GITHUBID: [Teacher001-top](https://github.com/Teacher001-top)
 - Подпись: ________________
-GitHub
-GitHub - Dedyretti/OBJV2
-
-Contribute to Dedyretti/OBJV2 development by creating an account on GitHub.
-
 - Дата: ________________
 - Оценка: ________________
 
@@ -678,4 +673,3 @@ Contribute to Dedyretti/OBJV2 development by creating an account on GitHub.
 
 
 
-[def]: https://github.com/Teacher001-top
