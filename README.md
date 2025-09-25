@@ -344,7 +344,7 @@ node_modules/
 - ✅  Проверена доступность репозитория
 
 **Команды выполнения:**
-```bash
+
 # Локальная настройка
 git config --global user.name "Dedyretti"
 git config --global user.email "Shelkov-d@list.ru"
@@ -542,7 +542,7 @@ Contribute to Dedyretti/OBJV2 development by creating an account on GitHub.
 - Дата: ________________
 - Оценка: ________________
 
-> *Отчет составлен автоматически на основе выполненных действий в GitHub*
+
 
 
 ## Раздел Падавана
