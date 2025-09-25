@@ -332,6 +332,137 @@ node_modules/
 - **Pull Request:** `https://github.com/Dedyretti/OBJV2/pull/2`
 
 ---
+## Раздел Падавана
+
+### 1. Начальная настройка
+
+Выполненные действия:
+- ✅ Создан форк основного репозитория
+- ✅ Локально клонирован форк
+- ✅ Настроена связь upstream
+
+Команды выполнения:
+# Клонирование форка
+git clone https://github.com/mayis25/OBJV2.git
+cd C:\Users\Student\Desktop\OBJV2
+
+# Настройка upstream
+git remote add upstream https://github.com/Dedyretti/OBJV2.git
+git remote -v
+
+Результаты проверки:
+origin    https://github.com/mayis25/OBJV2.git (fetch)
+origin    https://github.com/mayis25/OBJV2.git (push)
+upstream  https://github.com/Dedyretti/OBJV2.git (fetch)
+upstream  https://github.com/Dedyretti/OBJV2.git (push)
+
+### 2. Рабочий процесс
+
+Создание feature-ветки:
+- Имя ветки: main
+- Цель изменений: Тест
+
+Команды работы:
+# Создание и переход на новую ветку
+git checkout main
+git fetch upstream
+git merge upstream/main
+git checkout -b тест
+
+# Внесение изменений
+# ... работа в VS Code ...
+
+# Коммит изменений
+git add .
+git status
+git commit -m "тест"
+
+Внесенные изменения:
+- Созданные файлы: test.txt
+- Измененные файлы: нет
+- Удаленные файлы: нет
+
+### 3. Отправка изменений и создание PR
+
+Команды отправки:
+git push origin test.txt
+
+Информация Pull Request:
+- Заголовок PR: Добавлен новый функционал
+- Описание изменений: з
+- Ссылка на PR: https://github.com/Dedyretti/OBJV2/pull/1
+
+Статус PR:
+- ❌ Создан
+- ✅ На проверке
+- ❌ Требуются исправления
+- ❌ Принят
+## Раздел Падавана
+
+### 1. Начальная настройка
+
+Выполненные действия:
+- ✅ Создан форк основного репозитория
+- ✅ Локально клонирован форк
+- ✅ Настроена связь upstream
+
+Команды выполнения:
+# Клонирование форка
+git clone https://github.com/mayis25/OBJV2.git
+cd C:\Users\Student\Desktop\OBJV2
+
+# Настройка upstream
+git remote add upstream https://github.com/Dedyretti/OBJV2.git
+git remote -v
+
+Результаты проверки:
+origin    https://github.com/mayis25/OBJV2.git (fetch)
+origin    https://github.com/mayis25/OBJV2.git (push)
+upstream  https://github.com/Dedyretti/OBJV2.git (fetch)
+upstream  https://github.com/Dedyretti/OBJV2.git (push)
+
+### 2. Рабочий процесс
+
+Создание feature-ветки:
+- Имя ветки: main
+- Цель изменений: Тест
+
+Команды работы:
+# Создание и переход на новую ветку
+git checkout main
+git fetch upstream
+git merge upstream/main
+git checkout -b тест
+
+# Внесение изменений
+# ... работа в VS Code ...
+
+# Коммит изменений
+git add .
+git status
+git commit -m "тест"
+
+Внесенные изменения:
+- Созданные файлы: test.txt
+- Измененные файлы: нет
+- Удаленные файлы: нет
+
+### 3. Отправка изменений и создание PR
+
+Команды отправки:
+git push origin test.txt
+
+Информация Pull Request:
+- Заголовок PR: Добавлен новый функционал
+- Описание изменений: з
+- Ссылка на PR: https://github.com/Dedyretti/OBJV2/pull/1
+
+Статус PR:
+- ❌ Создан
+- ✅ На проверке
+- ❌ Требуются исправления
+- ❌ Принят
+
 
 ## Раздел Тимлида
 
@@ -464,7 +595,7 @@ t push origin test.txt
 
 | Участник | Количество коммитов | Созданные файлы | Внесенные изменения |
 |----------|---------------------|-----------------|---------------------|
-| Тимлид | 23 | 11 | 22 |
+| Тимлид | 29 | 11 | 29 |
 | Падаван | 1 | 1 | 0 |
 
 ---
@@ -522,17 +653,17 @@ t push origin test.txt
 ## Подписи участников
 
 Тимлид:
-- GITHUBID: Dedyretti
+- GITHUBID: Dedyretti(https://github.com/Dedyretti)
 - Подпись: ShelkD
 - Дата: 25/09/2025
 
 Падаван:
-- GITHUBID: mayis25
+- GITHUBID: mayis25(https://github.com/mayis25)
 - Подпись: MikaM 
 - Дата: 25/09/2025
 
 Преподаватель:
-- GITHUBID: Teacher001-top
+- GITHUBID: Teacher001-top(https://github.com/Teacher001-top)
 - Подпись: ________________
 GitHub
 GitHub - Dedyretti/OBJV2
@@ -545,133 +676,3 @@ Contribute to Dedyretti/OBJV2 development by creating an account on GitHub.
 
 
 
-## Раздел Падавана
-
-### 1. Начальная настройка
-
-Выполненные действия:
-- ✅ Создан форк основного репозитория
-- ✅ Локально клонирован форк
-- ✅ Настроена связь upstream
-
-Команды выполнения:
-# Клонирование форка
-git clone https://github.com/mayis25/OBJV2.git
-cd C:\Users\Student\Desktop\OBJV2
-
-# Настройка upstream
-git remote add upstream https://github.com/Dedyretti/OBJV2.git
-git remote -v
-
-Результаты проверки:
-origin    https://github.com/mayis25/OBJV2.git (fetch)
-origin    https://github.com/mayis25/OBJV2.git (push)
-upstream  https://github.com/Dedyretti/OBJV2.git (fetch)
-upstream  https://github.com/Dedyretti/OBJV2.git (push)
-
-### 2. Рабочий процесс
-
-Создание feature-ветки:
-- Имя ветки: main
-- Цель изменений: Тест
-
-Команды работы:
-# Создание и переход на новую ветку
-git checkout main
-git fetch upstream
-git merge upstream/main
-git checkout -b тест
-
-# Внесение изменений
-# ... работа в VS Code ...
-
-# Коммит изменений
-git add .
-git status
-git commit -m "тест"
-
-Внесенные изменения:
-- Созданные файлы: test.txt
-- Измененные файлы: нет
-- Удаленные файлы: нет
-
-### 3. Отправка изменений и создание PR
-
-Команды отправки:
-git push origin test.txt
-
-Информация Pull Request:
-- Заголовок PR: Добавлен новый функционал
-- Описание изменений: з
-- Ссылка на PR: https://github.com/Dedyretti/OBJV2/pull/1
-
-Статус PR:
-- ❌ Создан
-- ✅ На проверке
-- ❌ Требуются исправления
-- ❌ Принят
-## Раздел Падавана
-
-### 1. Начальная настройка
-
-Выполненные действия:
-- ✅ Создан форк основного репозитория
-- ✅ Локально клонирован форк
-- ✅ Настроена связь upstream
-
-Команды выполнения:
-# Клонирование форка
-git clone https://github.com/mayis25/OBJV2.git
-cd C:\Users\Student\Desktop\OBJV2
-
-# Настройка upstream
-git remote add upstream https://github.com/Dedyretti/OBJV2.git
-git remote -v
-
-Результаты проверки:
-origin    https://github.com/mayis25/OBJV2.git (fetch)
-origin    https://github.com/mayis25/OBJV2.git (push)
-upstream  https://github.com/Dedyretti/OBJV2.git (fetch)
-upstream  https://github.com/Dedyretti/OBJV2.git (push)
-
-### 2. Рабочий процесс
-
-Создание feature-ветки:
-- Имя ветки: main
-- Цель изменений: Тест
-
-Команды работы:
-# Создание и переход на новую ветку
-git checkout main
-git fetch upstream
-git merge upstream/main
-git checkout -b тест
-
-# Внесение изменений
-# ... работа в VS Code ...
-
-# Коммит изменений
-git add .
-git status
-git commit -m "тест"
-
-Внесенные изменения:
-- Созданные файлы: test.txt
-- Измененные файлы: нет
-- Удаленные файлы: нет
-
-### 3. Отправка изменений и создание PR
-
-Команды отправки:
-git push origin test.txt
-
-Информация Pull Request:
-- Заголовок PR: Добавлен новый функционал
-- Описание изменений: з
-- Ссылка на PR: https://github.com/Dedyretti/OBJV2/pull/1
-
-Статус PR:
-- ❌ Создан
-- ✅ На проверке
-- ❌ Требуются исправления
-- ❌ Принят
